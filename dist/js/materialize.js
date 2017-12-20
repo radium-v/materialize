@@ -2075,7 +2075,7 @@ M.throttle = function (func, wait, options) {
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Collapsible, 'collapsible', 'M_Collapsible');
   }
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($, anim) {
   'use strict';
 
@@ -2608,7 +2608,7 @@ M.throttle = function (func, wait, options) {
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Dropdown, 'dropdown', 'M_Dropdown');
   }
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($, anim) {
   'use strict';
 
@@ -3001,7 +3001,7 @@ M.throttle = function (func, wait, options) {
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Modal, 'modal', 'M_Modal');
   }
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($, anim) {
   'use strict';
 
@@ -3456,7 +3456,7 @@ M.throttle = function (func, wait, options) {
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Materialbox, 'materialbox', 'M_Materialbox');
   }
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($) {
   'use strict';
 
@@ -4055,7 +4055,7 @@ M.throttle = function (func, wait, options) {
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Tabs, 'tabs', 'M_Tabs');
   }
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($, anim) {
   'use strict';
 
@@ -4374,7 +4374,7 @@ M.throttle = function (func, wait, options) {
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Tooltip, 'tooltip', 'M_Tooltip');
   }
-})(cash, anime);
+})(cash, M.anime);
 ; /*!
   * Waves v0.6.4
   * http://fian.my.id/Waves
@@ -5057,7 +5057,7 @@ M.throttle = function (func, wait, options) {
   M.toast = function (options) {
     return new Toast(options);
   };
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($, anim) {
   'use strict';
 
@@ -5671,7 +5671,7 @@ M.throttle = function (func, wait, options) {
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Sidenav, 'sidenav', 'M_Sidenav');
   }
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($, anim) {
   'use strict';
 
@@ -5995,7 +5995,7 @@ M.throttle = function (func, wait, options) {
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(ScrollSpy, 'scrollSpy', 'M_ScrollSpy');
   }
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($) {
   'use strict';
 
@@ -7067,7 +7067,7 @@ M.throttle = function (func, wait, options) {
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(Slider, 'slider', 'M_Slider');
   }
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($, anim) {
   $(document).on('click', '.card', function (e) {
     if ($(this).children('.card-reveal').length) {
@@ -7101,7 +7101,7 @@ M.throttle = function (func, wait, options) {
       }
     }
   });
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($) {
   'use strict';
 
@@ -8216,7 +8216,7 @@ M.throttle = function (func, wait, options) {
   if (M.jQueryLoaded) {
     M.initializeJqueryWrapper(FloatingActionButton, 'floatingActionButton', 'M_FloatingActionButton');
   }
-})(cash, anime);
+})(cash, M.anime);
 ;(function ($) {
   'use strict';
 
@@ -11818,4 +11818,4 @@ M.throttle = function (func, wait, options) {
   }
 
   Range.init($('input[type=range]'));
-})(cash, anime);
+})(cash, M.anime);
